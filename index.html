@@ -2,41 +2,8 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
         <title>Meu Portfólio</title>
-        <style>
-            body {
-                background-color: rgb(176,224,230);
-            }
-            
-            h1 {
-                font-family: monospace, sans-serif;
-            }
-
-            #descricao {
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-            }
-
-            span.origem {
-                font-style: italic;
-                font-weight: bold;
-            }
-
-            .t40 {
-                font-size: 40px;
-            }
-            .t35 {
-                font-size: 35px;
-            }
-            .t30 {
-                font-size: 30px;
-            }
-            .t25 {
-                font-size: 25px;
-            }
-            .t20 {
-                font-size: 20px;
-            }
-        </style>
     </head>
     <body>
         <ul>
@@ -46,12 +13,14 @@
 
         <h1>Paulo Vinicius Alves de Oliveira</h1>
 
-        <figure>
-            <img id="perfil" src="perfil.jpeg" alt="Imagem de Paulo Vinicius" width="300px"/>
-            <figcaption>Foto de perfil de <strong>Paulo Vinicius</strong></figcaption>
-        </figure>
+        <div class="bloco">
+            <figure>
+                <img id="perfil" src="perfil.jpeg" alt="Imagem de Paulo Vinicius" width="300px"/>
+                <figcaption>Foto de perfil de <strong><em>Paulo Vinicius</em></strong></figcaption>
+            </figure>
 
-        <p id="descricao">Me chamo <a href="#perfil" alt="Foto de perfil Paulo Vinicius">Paulo Vinicius</a>, sou <span class="origem">Brasileiro</span>, tenho 25 anos, atualmente sou noivo de uma mulher linda chamada <em>Nayara Cruz</em>, sou formado em Análise e Desenvolvimento de Sistemas e Pós-graduado em Engenharia de Software, e atualmente estou morando na cidade de <span class="origem">Arujá / SP</span>. Sou apaixonado por Tecnologia desde os meus 15 anos, onde comecei por <em>HTML</em> e com o passar dos anos, fui me aprofundando nas demais Tecnologia do Desenvolvimento Web.</p>
+            <p id="descricao">Me chamo <a href="#perfil" alt="Foto de perfil Paulo Vinicius">Paulo Vinicius</a>, sou <span class="origem">Brasileiro</span>, tenho 25 anos, atualmente sou noivo de uma mulher linda chamada <em>Nayara Cruz</em>, sou formado em Análise e Desenvolvimento de Sistemas e Pós-graduado em Engenharia de Software, e atualmente estou morando na cidade de <span class="origem">Arujá / SP</span>. Sou apaixonado por Tecnologia desde os meus 15 anos, onde comecei por <em>HTML</em> e com o passar dos anos, fui me aprofundando nas demais Tecnologia do Desenvolvimento Web.</p>
+        </div>
 
         <ul id="habilidades">
             <li class="t40"><strong>Autodidata</strong></li>

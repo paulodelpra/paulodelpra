@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(176,224,230);
+}
+
+h1 {
+    font-family: monospace, sans-serif;
+    text-align: center;
+}
+
+#descricao {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span.origem {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.t40 {
+    font-size: 40px;
+}
+.t35 {
+    font-size: 35px;
+}
+.t30 {
+    font-size: 30px;
+}
+.t25 {
+    font-size: 25px;
+}
+.t20 {
+    font-size: 20px;
+}
+
+.bloco {
+    width: 900px;
+    margin: auto;
+}
+
+figure {
+    float: left;
+    width: 350px;
+    margin: 0px;
+}
+
+figure img {
+    padding: 10px;
+    background-color: #14888b;
+    margin: 10px 0px;
+}
+
+#descricao {
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#habilidades {
+    clear: both;
+}
+
+#habilidades li:nth-child(odd) {
+    color: #14888b;
+}
